@@ -14,7 +14,7 @@
 **DESCRIPTION** :
 Creating a Java application that consumes a public REST API to fetch and display data is a valuable skill for modern software development. This task involves handling HTTP requests, parsing JSON responses, and presenting the data in a structured format. In this example, we will use the OpenWeatherMap API to fetch weather data and display it in a user-friendly manner.
 
-Overview
+**Overview**
 The application will perform the following steps:
 
 Send an HTTP GET Request: Connect to the OpenWeatherMap API to fetch weather data for a specified city.
@@ -23,7 +23,7 @@ Parse the JSON Response: Extract relevant information from the JSON response.
 
 Display the Data: Present the weather data in a structured format.
 
-Dependencies
+**Dependencies**
 To handle HTTP requests and parse JSON responses, we will use the HttpURLConnection class and the org.json library. If you are using Maven, add the following dependency to your pom.xml file:
 
 xml
@@ -99,7 +99,7 @@ public class WeatherApp {
         System.out.println("Description: " + description);
     }
 }
-Explanation
+**Explanation**
 Import Statements: Import the necessary classes for handling HTTP requests and parsing JSON responses.
 
 API Key: Replace "YOUR_API_KEY" with your actual OpenWeatherMap API key.
@@ -114,5 +114,12 @@ JSON Parsing: Parse the JSON response using the org.json library.
 
 Display Data: Extract relevant data (city name, temperature, humidity, description) and display it in a structured format.
 
-Conclusion
+**Conclusion**
 This Java application demonstrates how to consume a public REST API, handle HTTP requests, parse JSON responses, and display the data in a structured format. By using the HttpURLConnection class and the org.json library, developers can efficiently interact with REST APIs and integrate external data into their applications. This example can be extended to include more features, such as user input for different cities, error handling, and more detailed weather information
+
+**OUTPUT**
+Weather Data for Delhi:
+Temperature: 25.0°C
+Humidity: 60%
+Description: clear sky
+
