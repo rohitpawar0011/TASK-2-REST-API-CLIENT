@@ -118,8 +118,4 @@ Display Data: Extract relevant data (city name, temperature, humidity, descripti
 This Java application demonstrates how to consume a public REST API, handle HTTP requests, parse JSON responses, and display the data in a structured format. By using the HttpURLConnection class and the org.json library, developers can efficiently interact with REST APIs and integrate external data into their applications. This example can be extended to include more features, such as user input for different cities, error handling, and more detailed weather information
 
 **OUTPUT**
-Weather Data for Delhi:
-Temperature: 25.0°C
-Humidity: 60%
-Description: clear sky
-
+![Image](https://github.com/user-attachments/assets/1f1f51d3-b9b4-493d-9f9c-be85edb84cf5)
