@@ -1,17 +1,3 @@
-# TASK-2-REST-API-CLIENT
-**COMPANY**: CODTECH IT SOLUTIONS
-
-**NAME** :ROHIT KISHOR PAWAR
-
-**INTERN ID**: CT08HJD
-
-**DOMAIN** : JAVA PROGRAMMING
-
-**BATCH DURATION** : December 30th,2024 to January 30th,2025
-
-**MENTOR NAME** : NEELA SANTHOSH
-
-**DESCRIPTION** :
 Creating a Java application that consumes a public REST API to fetch and display data is a valuable skill for modern software development. This task involves handling HTTP requests, parsing JSON responses, and presenting the data in a structured format. In this example, we will use the OpenWeatherMap API to fetch weather data and display it in a user-friendly manner.
 
 **Overview**
